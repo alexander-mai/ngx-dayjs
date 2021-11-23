@@ -1,6 +1,6 @@
 {
   "name": "@afa-ag/ngx-dayjs",
-  "version": "12.0.0",
+  "version": "12.0.1",
   "description": "dayjs pipes for Angular",
   "scripts": {
     "build": "ng build",
