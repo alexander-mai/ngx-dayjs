@@ -2,18 +2,18 @@
 
 dayjs pipes for Angular
 
-[![Build Status](https://travis-ci.org/ljmerza/ngx-dayjs.svg?branch=master)](https://travis-ci.org/ljmerza/ngx-dayjs)
+[![Build Status](https://travis-ci.org/alexander-mai/ngx-dayjs.svg?branch=master)](https://travis-ci.org/alexander-mai/ngx-dayjs)
 
 Installation
 ------------
 
-`npm install --save ngx-dayjs`
+`npm install --save @afa-ag/ngx-dayjs`
 
 ### For System.js users:
 
 First you need to install dayjs:
 
-`npm install dayjs --save`
+`npm install @afa-ag/dayjs --save`
 
 Don't forget to update your systemjs.config.js:
 
@@ -40,7 +40,7 @@ Usage
 Import `dayjsModule` into your app's modules:
 
 ``` typescript
-import { dayjsModule } from 'ngx-dayjs';
+import { dayjsModule } from '@afa-ag/ngx-dayjs';
 
 @NgModule({
   imports: [
@@ -49,7 +49,7 @@ import { dayjsModule } from 'ngx-dayjs';
 })
 ```
 
-This makes all the `ngx-dayjs` pipes available for use in your app components.
+This makes all the `@afa-ag/ngx-dayjs` pipes available for use in your app components.
 
 Available pipes
 ---------------
@@ -126,7 +126,7 @@ Complete Example
 import { NgModule, Component } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-import { dayjsModule } from 'ngx-dayjs';
+import { dayjsModule } from '@afa-ag/ngx-dayjs';
 
 @Component({
   selector: 'app',

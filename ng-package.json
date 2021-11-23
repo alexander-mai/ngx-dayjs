@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/ng-packagr/ng-package.schema.json",
-  "dest": "dist/ngx-dayjs",
+  "dest": "dist",
   "deleteDestPath": false,
   "allowedNonPeerDependencies": ["dayjs"],
   "lib": {

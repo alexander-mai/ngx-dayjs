@@ -1,6 +1,6 @@
 {
   "name": "@afa-ag/ngx-dayjs",
-  "version": "1.0.0",
+  "version": "12.0.0",
   "description": "dayjs pipes for Angular",
   "scripts": {
     "build": "ng build",
@@ -9,11 +9,8 @@
     "test:coverage": "jest --coverage",
     "test:debug": "node --inspect-brk --inspect ./node_modules/jest/bin/jest.js --runInBand",
     "prepublish": "ng build",
-    "lint": "ng lint"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ljmerza/ngx-dayjs.git"
+    "lint": "ng lint",
+    "publish": "cd dist && npm publish --access public"
   },
   "keywords": [
     "angular",
@@ -21,10 +18,13 @@
   ],
   "author": "Leonardo Merza",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ljmerza/ngx-dayjs/issues"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexander-mai/ngx-dayjs.git"
+  },  "bugs": {
+    "url": "https://github.com/alexander-mai/ngx-dayjs/issues"
   },
-  "homepage": "https://github.com/ljmerza/ngx-dayjs#readme",
+  "homepage": "https://github.com/alexander-mai/ngx-dayjs#readme",
   "peerDependencies": {
     "@angular/common": ">=6.0.0",
     "@angular/core": ">=6.0.0",
