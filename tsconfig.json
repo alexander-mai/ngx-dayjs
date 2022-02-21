@@ -1,23 +1,38 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
-  "version": "2.0.3",
+  "compileOnSave": false,
   "compilerOptions": {
-    "module": "commonjs",
-    "target": "es5",
-    "lib": [
-      "es2015",
-      "dom"
-    ],
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "noImplicitAny": true,
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
-    "noImplicitThis": true,
-    "noUnusedLocals": true,
+    "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
-    "inlineSources": true,
-    "declaration": true
+    "paths": {
+      "ngx-dayjs": [
+        "dist/ngx-dayjs/ngx-dayjs",
+        "dist/ngx-dayjs"
+      ]
+    },
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2017",
+    "module": "es2020",
+    "lib": [
+      "es2020",
+      "dom"
+    ]
   },
-  "include": [
-    "src/*.ts"
-  ]
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
+  }
 }

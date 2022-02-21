@@ -1,3 +1,7 @@
+/*
+ * Public API Surface of ngx-dayjs
+ */
+
 export { AddPipe } from './add.pipe';
 export { DateFormatPipe } from './date-format.pipe';
 export { DifferencePipe } from './difference.pipe';

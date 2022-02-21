@@ -1,15 +1,13 @@
 {
   "name": "@afa-ag/ngx-dayjs",
-  "version": "12.0.1",
+  "version": "13.0.0",
   "description": "dayjs pipes for Angular",
   "scripts": {
     "build": "ng build",
-    "test": "ng lint && jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage",
-    "test:debug": "node --inspect-brk --inspect ./node_modules/jest/bin/jest.js --runInBand",
-    "prepublish": "ng build",
+    "test": "ng test",
+    "test:coverage": "ng test --code-coverage",
     "lint": "ng lint",
+    "prepublish": "ng build",
     "publish": "cd dist && npm publish --access public"
   },
   "keywords": [
@@ -31,44 +29,32 @@
     "dayjs": "^1.10.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~12.2.0",
-    "@angular-eslint/builder": "12.7.0",
-    "@angular-eslint/eslint-plugin": "12.7.0",
-    "@angular-eslint/eslint-plugin-template": "12.7.0",
-    "@angular-eslint/schematics": "12.7.0",
-    "@angular-eslint/template-parser": "12.7.0",
-    "@angular/cli": "~12.2.0",
-    "@angular/common": "^12.2.0",
-    "@angular/compiler": "^12.2.0",
-    "@angular/compiler-cli": "^12.2.0",
-    "@angular/core": "^12.2.0",
-    "@angular/language-service": "^12.2.0",
-    "@angular/platform-browser": "^12.2.0",
-    "@types/jest": "^27.0.0",
-    "@typescript-eslint/eslint-plugin": "4.28.2",
-    "@typescript-eslint/parser": "4.28.2",
-    "core-js": "^2.6.0",
-    "eslint": "^7.26.0",
-    "jest": "^27.3.0",
-    "ng-packagr": "^12.2.0",
-    "rxjs": "^6.6.7",
-    "ts-jest": "^27.0.0",
-    "tsickle": ">=0.25.5",
+    "@angular-devkit/build-angular": "^13.2.0",
+    "@angular-eslint/builder": "13.1.0",
+    "@angular-eslint/eslint-plugin": "13.1.0",
+    "@angular-eslint/eslint-plugin-template": "13.1.0",
+    "@angular-eslint/schematics": "13.1.0",
+    "@angular-eslint/template-parser": "13.1.0",
+    "@angular/cli": "^13.2.0",
+    "@angular/common": "^13.2.0",
+    "@angular/compiler": "^13.2.0",
+    "@angular/compiler-cli": "^13.2.0",
+    "@angular/core": "^13.2.0",
+    "@types/jasmine": "~3.10.0",
+    "@types/node": "^16.0.0",
+    "@typescript-eslint/eslint-plugin": "5.11.0",
+    "@typescript-eslint/parser": "5.11.0",
+    "eslint": "^8.2.0",
+    "jasmine-core": "~4.0.0",
+    "karma": "~6.3.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~4.0.0",
+    "karma-jasmine-html-reporter": "~1.7.0",
+    "ng-packagr": "^13.2.0",
+    "rxjs": "^7.5.0",
     "tslib": "^2.3.0",
-    "typescript": "~4.3.0",
+    "typescript": "^4.5.0",
     "zone.js": "^0.11.4"
-  },
-  "jest": {
-    "roots": [
-      "src"
-    ],
-    "transform": {
-      "^.+\\.ts$": "ts-jest"
-    },
-    "moduleFileExtensions": [
-      "ts",
-      "js"
-    ],
-    "testRegex": "\\.spec\\.ts$"
   }
 }
